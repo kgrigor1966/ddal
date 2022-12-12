@@ -21,9 +21,8 @@ RUN conda install pytorch torchvision torchaudio cpuonly -c pytorch
 
 RUN conda install accelerate diffusers -c conda-forge
 
-RUN conda install jupyterlab
 
 #RUN pip3 install rastervision==0.20
 
-CMD ["jupyter-lab"]
+CMD ["jupyterhub-singleuser"]
 

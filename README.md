@@ -8,7 +8,7 @@ This repository contains a large set of models used in drone-analytics of five d
 - UC4: Livestock Monitoring
 - UC5: Rural Transportation
 
-An explanation on how these models were found can be read in the [wiki](linky).
+An explanation on how these models were found can be read in the [wiki](https://github.com/ICAERUS-EU/ddal/wiki/Methodology:-finding-the-models).
 
 ## Repo structure
 The repository is structured into a generic processing library, with models used across the use-cases. In addition, each use-case has a specific model-database. Which also includes deep learning models.
@@ -78,7 +78,7 @@ Not wanting to deal with anaconda and environment.yamls? Run the ddal environmen
 from your command-line with docker running:
 this pulls the most recent ddal with all packages and libraries installed.
 ```
-    docker run jurrain/ddal:latest
+    docker run --rm -it -p 8888:8888 jupyterlab:latest
 ```
 4. for transferring files and folders to and from docker, use:
 

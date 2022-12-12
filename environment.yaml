@@ -4,15 +4,16 @@ channels:
   - conda-forge
 dependencies:
   - python=3.9
-  - conda-forge::jupyterhub=3.0.0
+  - 
   - pytorch::pytorch=1.13.0
   - pytorch::torchvision=0.13.1
   - pytorch::torchaudio=0.12.1
-  - conda-forge::geopandas=0.12.1
-  - conda-forge::rioxarray=0.13.1
-  - conda-forge::scikit-learn=1.1.3
-  - conda-forge::matplotlib
+  - geopandas=0.12.1
+  - rioxarray=0.13.1
+  - scikit-learn=1.1.3
+  - matplotlib
   - pip
   - pip:
+    - jupyterhub=3.0.0
     - pyodm
     - rastervision==0.13
