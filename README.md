@@ -57,7 +57,7 @@ and extract to the preferred directory.
 3. From Anaconda prompt, `cd` to the directory and install the requirements.txt file under a new python-processing environment
 ```
     # 1. cd to this repo's directory
-    # 2. then install all the packages using conda and the environment.yaml
+    # 2. then install all the packages using conda and the environment.yaml. Will take some time to run.
     conda config --append channels conda-forge
     conda env create -f environment.yaml 
 
