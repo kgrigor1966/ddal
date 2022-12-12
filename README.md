@@ -58,7 +58,8 @@ and extract to the preferred directory.
 ```
     # 1. cd to this repo's directory
     # 2. then install all the packages using conda and the environment.yaml
-    conda env create -f environment.yaml
+    conda config --append channels conda-forge
+    conda env create -f environment.yaml 
 
     # 3. activate the environment
     conda activate ddal

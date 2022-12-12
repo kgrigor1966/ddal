@@ -1,0 +1,19 @@
+name: ddal
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.9
+  - jupyterhub=3.0.0
+  - pytorch::pytorch
+  - torchvision::pytorch
+  - torchtext::pytorch
+  - torchaudio::pytorch
+  - geopandas==0.12.1
+  - rioxarray==0.13.1
+  - scikit-learn==1.1.3
+  - matplotlib
+  - pip
+  - pip:
+    - pyodm
+    - rastervision==0.13
