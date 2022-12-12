@@ -47,27 +47,24 @@ To run on the ddal on your own machine, Anaconda is used as a package manager.
 
 2. Download this repository on your machine, navigate to your preferred directory and run:
 ```
-    # using git
     git pull https://github.com/icaerus-eu/ddal.git
 ```
-
 Or download this repository as a .zip file from the top-right green button: 'Download ZIP'
 and extract to the preferred directory.
 
 3. From Anaconda prompt, `cd` to the directory and install the requirements.txt file under a new python-processing environment
 ```
-    # 1. cd to this repo's directory
-    # 2. then install all the packages using conda and the environment.yaml. Will take some time to run.
     conda config --append channels conda-forge
     conda env create -f environment.yaml 
-
-    # 3. activate the environment
+```
+Activate the environment
+```
     conda activate ddal
 ```
 
 4. Run the jupyterlab environment to start processing and analysing drone-data with the different notebooks:
+Run in your anaconda prompt, with the ddal environment activated:
 ```
-    # Run in your anaconda prompt, with the ddal environment activated:
     jupyter-lab
 ```
 This will start the jupyter-lab instance in your browser, and you are ready to process drone data!
@@ -78,9 +75,9 @@ Not wanting to deal with anaconda and environment.yamls? Run the ddal environmen
 1. Install [Docker](https://docs.docker.com/get-docker/)
 2. Start Docker
 3. Start the Jupyter-lab docker
+from your command-line with docker running:
+this pulls the most recent ddal with all packages and libraries installed.
 ```
-    # from your command-line with docker running:
-    # this pulls the most recent ddal with all packages and libraries installed.
     docker run jurrain/ddal:latest
 ```
 4. for transferring files and folders to and from docker, use:
