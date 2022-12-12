@@ -78,7 +78,7 @@ Not wanting to deal with anaconda and environment.yamls? Run the ddal environmen
 from your command-line with docker running:
 this pulls the most recent ddal with all packages and libraries installed.
 ```
-    docker run --rm -it -p 8888:8888 jupyterlab:latest
+    docker run --rm -it -p 8888:8888 jurrain/ddal:latest
 ```
 4. for transferring files and folders to and from docker, use:
 
