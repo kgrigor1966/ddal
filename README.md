@@ -41,9 +41,10 @@ The most important are:
 
 There are 3 different ways to get started: 1. Anaconda on bare metal, 2. A precompiled docker-container, 3. JupyterHub access
 
-### 1. Anaconda
-To run on the ddal on your own machine, Anaconda is used as a package manager.
-1. Please install anaconda on your machine, [here](https://docs.anaconda.com/anaconda/install/index.html).
+### 1. Anaconda on bare metal
+To run on the ddal on your own machine, Mamboforge is used as a package manager.
+1. a) Please install mambaforge on your machine, [here](https://github.com/conda-forge/miniforge#mambaforge).
+1. b) in the installer, make sure that desktop shortcuts are enabled
 
 2. Download this repository on your machine, navigate to your preferred directory and run:
 ```
@@ -52,10 +53,10 @@ To run on the ddal on your own machine, Anaconda is used as a package manager.
 Or download this repository as a .zip file from the top-right green button: 'Download ZIP'
 and extract to the preferred directory.
 
-3. From Anaconda prompt, `cd` to the directory and install the requirements.txt file under a new python-processing environment
+3. a) Search for the newly installed Miniforge prompt and run it
+3. b) `cd` to the git directory and install the `environment.yaml` file under a new python-processing environment called `ddal`
 ```
-    conda config --append channels conda-forge
-    conda env create -f environment.yaml 
+    mamba env create -n ddal -file environment.yaml 
 ```
 Activate the environment
 ```
@@ -85,6 +86,6 @@ this pulls the most recent ddal with all packages and libraries installed.
 
 ### 3. JupyterHub
 Even simpler, but more expensive is requesting access to a personal processing-enviroment running on the icaerus-jupyterhub:
-[icaerus.jupyterhub.eu](icaerus.jupyterhub.eu)
+[icaerus.jupyterhub.eu](icaerus.jupyterhub.eu) # DOES NOT EXIST (YET?)
 
 This will run a jupyterlab instance in the cloud, with your own personal files and processing resources. However, you would need access with a personal account, requested at the main login, and will cost some money to pay for the resources.
