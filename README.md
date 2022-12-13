@@ -43,8 +43,8 @@ There are 3 different ways to get started: 1. Anaconda on bare metal, 2. A preco
 
 ### 1. Anaconda on bare metal
 To run on the ddal on your own machine, Mamboforge is used as a package manager.
-1. a) Please install mambaforge on your machine, [here](https://github.com/conda-forge/miniforge#mambaforge).
-   b) in the installer, make sure that desktop shortcuts are enabled
+1.  1. Please install mambaforge on your machine, [here](https://github.com/conda-forge/miniforge#mambaforge).
+    2. in the installer, make sure that desktop shortcuts are enabled
    
 2. Search for the newly installed Miniforge prompt application and run it
 
@@ -55,8 +55,8 @@ To run on the ddal on your own machine, Mamboforge is used as a package manager.
 Or download this repository as a .zip file from the top-right green button: 'Download ZIP'
 and extract to the preferred directory.
 
-4. a) Search for the newly installed Miniforge prompt and run it
-   b) `cd` to the git directory and install the `environment.yaml` file under a new python-processing environment called `ddal`
+4.  1. Search for the newly installed Miniforge prompt and run it
+    2. `cd` to the git directory and install the `environment.yaml` file under a new python-processing environment called `ddal`
 ```
     mamba env create -n ddal -file environment.yaml 
 ```
