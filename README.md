@@ -42,7 +42,7 @@ The most important are:
 There are 3 different ways to get started: 1. Anaconda on bare metal, 2. A precompiled docker-container, 3. JupyterHub access
 
 ### 1. Anaconda on bare metal
-To run on the ddal on your own machine, Mamboforge is used as a package manager.
+To run on the ddal on your own machine, Mambaforge is used as a package manager.
 1.  1. Please install mambaforge on your machine, [here](https://github.com/conda-forge/miniforge#mambaforge).
     2. in the installer, make sure that desktop shortcuts are enabled
    
