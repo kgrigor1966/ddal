@@ -44,17 +44,19 @@ There are 3 different ways to get started: 1. Anaconda on bare metal, 2. A preco
 ### 1. Anaconda on bare metal
 To run on the ddal on your own machine, Mamboforge is used as a package manager.
 1. a) Please install mambaforge on your machine, [here](https://github.com/conda-forge/miniforge#mambaforge).
-1. b) in the installer, make sure that desktop shortcuts are enabled
+   b) in the installer, make sure that desktop shortcuts are enabled
+   
+2. Search for the newly installed Miniforge prompt application and run it
 
-2. Download this repository on your machine, navigate to your preferred directory and run:
+3. Download this repository on your machine, navigate to your preferred directory and run:
 ```
     git pull https://github.com/icaerus-eu/ddal.git
 ```
 Or download this repository as a .zip file from the top-right green button: 'Download ZIP'
 and extract to the preferred directory.
 
-3. a) Search for the newly installed Miniforge prompt and run it
-3. b) `cd` to the git directory and install the `environment.yaml` file under a new python-processing environment called `ddal`
+4. a) Search for the newly installed Miniforge prompt and run it
+   b) `cd` to the git directory and install the `environment.yaml` file under a new python-processing environment called `ddal`
 ```
     mamba env create -n ddal -file environment.yaml 
 ```
@@ -63,7 +65,7 @@ Activate the environment
     conda activate ddal
 ```
 
-4. Run the jupyterlab environment to start processing and analysing drone-data with the different notebooks:
+5. Run the jupyterlab environment to start processing and analysing drone-data with the different notebooks:
 Run in your anaconda prompt, with the ddal environment activated:
 ```
     jupyter-lab
