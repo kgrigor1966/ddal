@@ -1,5 +1,9 @@
 # Model title
 
+This is a quick card about the model. There should also be a subfolder in here with the same name and model itself (if available, relevant to the UC/project (DL model preweights are interesting, random forest: meh)) 
+We need to check Git LFS if we want all of it - which requries some financing...) or maybe a python/shell/url.txt with a download link or howto-download?
+
+For later, we can also do example notebooks where we do a quick analysis of a dataset under the UCx/notebooks/ folder. We wil see how far we can get this.
 
 For each included model, copy this file, create a new title and link to the UCx/readme.md file
 

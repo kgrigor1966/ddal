@@ -1,5 +1,7 @@
 # strawberry_ripe_notripe
 
+This is a quick card about the dataset. There should also be a subfolder in here with the same name and the data itself (if available, and we need to check Git LFS if we want all of it - which requries some financing...) or maybe a python/shell/url.txt with a download link or howto-download?
+
 For each included dataset, copy this file, create a new title and link to the UCx/readme.md file
 
 Fill in the following dataset card:
