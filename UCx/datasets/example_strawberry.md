@@ -25,4 +25,4 @@ Fill in the following dataset card:
 
 ## Example
 
-![image for strawberry ripeness ](https://cdn.britannica.com/22/75922-050-D3982BD0/flowers-fruits-garden-strawberry-plant-species.jpg))
+![image for strawberry ripeness ](https://cdn.britannica.com/22/75922-050-D3982BD0/flowers-fruits-garden-strawberry-plant-species.jpg)
