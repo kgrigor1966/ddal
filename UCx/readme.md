@@ -12,9 +12,9 @@ The data-extraction task identified the following papers and respective models a
 
 Under the datasets folder, the following datasets are included:
 
-| Article title | Dataset subject | Dataset title | Original dataset link | 
+| Article title | Dataset title | Dataset subject | Original dataset link | 
 | ----- | ----- | ----- | ----- |
-| UAVs for strawberry identification | Strawberry classification | [strawberry_ripe_notripe](https://github.com/ICAERUS-EU/ddal/UCx/datasets/example_strawberry.md) | [Strawberry dataset link]((https://cdn.britannica.com/22/75922-050-D3982BD0/flowers-fruits-garden-strawberry-plant-species.jpg))
+| UAVs for strawberry identification |  [strawberry_ripe_notripe](https://github.com/ICAERUS-EU/ddal/UCx/datasets/example_strawberry.md) | Strawberry classification | [Strawberry dataset link]((https://cdn.britannica.com/22/75922-050-D3982BD0/flowers-fruits-garden-strawberry-plant-species.jpg))
 
 
 ## Models
