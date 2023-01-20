@@ -23,4 +23,4 @@ Under the models folder, the following models are included:
 
 | Article title | Model title | Model Classification | Original model link |
 | ----- | ----- | ----- | ----- |
-| UAVs for grape picking | [grape_yolov8]((https://github.com/ICAERUS-EU/ddal/UCx/datasets/example_grape.md) ) | Deep Learning: Object Detection | [Grape model link]((https://docs.ultralytics.com/tasks/detection/))
+| UAVs for grape picking | [grape_yolov8](https://github.com/ICAERUS-EU/ddal/UCx/datasets/example_grape.md) | Deep Learning: Object Detection | [Grape model link]((https://docs.ultralytics.com/tasks/detection/))
