@@ -14,4 +14,4 @@ Fill in the following model card:
 | Model architecture | YoloV8 |
 | Reported accuracy on train | 99.0% MAoU |
 | Reported accuracy on test | 67.9% MAoU |
-| Pretrained weights link | [link]()) |
+| Pretrained weights link | [link]() |

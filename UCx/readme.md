@@ -14,7 +14,7 @@ Under the datasets folder, the following datasets are included:
 
 | Article title | Dataset title | Dataset subject | Original dataset link | 
 | ----- | ----- | ----- | ----- |
-| UAVs for strawberry identification |  [strawberry_ripe_notripe](https://github.com/ICAERUS-EU/ddal/UCx/datasets/example_strawberry.md) | Strawberry classification | [Strawberry dataset link]((https://cdn.britannica.com/22/75922-050-D3982BD0/flowers-fruits-garden-strawberry-plant-species.jpg))
+| UAVs for strawberry identification |  [strawberry_ripe_notripe](https://github.com/ICAERUS-EU/ddal/blob/main/UCx/datasets/example_strawberry.md) | Strawberry classification | [Strawberry dataset link]((https://cdn.britannica.com/22/75922-050-D3982BD0/flowers-fruits-garden-strawberry-plant-species.jpg))
 
 
 ## Models
@@ -23,4 +23,4 @@ Under the models folder, the following models are included:
 
 | Article title | Model title | Model Classification | Original model link |
 | ----- | ----- | ----- | ----- |
-| UAVs for grape picking | [grape_yolov8](https://github.com/ICAERUS-EU/ddal/UCx/datasets/example_grape.md) | Deep Learning: Object Detection | [Grape model link]((https://docs.ultralytics.com/tasks/detection/))
+| UAVs for grape picking | [grape_yolov8](https://github.com/ICAERUS-EU/ddal/blob/main/UCx/models/example_grape.md) | Deep Learning: Object Detection | [Grape model link]((https://docs.ultralytics.com/tasks/detection/))
