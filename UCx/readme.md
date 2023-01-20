@@ -7,7 +7,7 @@ The data-extraction task identified the following papers and respective models a
 | ----- | ----- | -----| 
 | [UAVs for grape picking](https://www.sciencedirect.com/) | x | |
 | [UAVs for strawberry identification](https://www.sciencedirect.com/) |  | x |
-
+| [UAVs for blueberry eating](https://ieee-explore.com) | | | 
 ## Datasets
 
 Under the datasets folder, the following datasets are included:
