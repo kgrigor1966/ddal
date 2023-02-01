@@ -1,4 +1,4 @@
-# Use Case x: Subject
+# Use Case 1: Subject
 
 This folder contains datasets and models subfolders. Which respectively contain datasets relating to the use-case, as found in the data-extraction task for ICAERUS WP1/T.2.
 The data-extraction task identified the following papers and respective models and datasets:
