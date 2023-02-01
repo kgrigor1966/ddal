@@ -5,7 +5,7 @@ The data-extraction task identified the following papers and respective models a
 
 | Title | Model in this repo | Dataset in this repo |
 | ----- | ----- | -----| 
-| [UAVs for grape picking](https://www.sciencedirect.com/) | x | |
+| [Quantifying the effect of Jacobiasca lybica pest on vineyards](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0215521) |  | x |
 | [UAVs for strawberry identification](https://www.sciencedirect.com/) |  | x |
 | [UAVs for blueberry eating](https://ieee-explore.com) | | | 
 ## Datasets
@@ -14,7 +14,7 @@ Under the datasets folder, the following datasets are included:
 
 | Article title | Dataset title | Dataset subject | Original dataset link | 
 | ----- | ----- | ----- | ----- |
-| UAVs for strawberry identification |  [strawberry_ripe_notripe](https://github.com/ICAERUS-EU/ddal/blob/main/UCx/datasets/example_strawberry.md) | Strawberry classification | [Strawberry dataset link]((https://cdn.britannica.com/22/75922-050-D3982BD0/flowers-fruits-garden-strawberry-plant-species.jpg))
+|Quantifying the effect of Jacobiasca lybica pest on vineyards |  [Orthoimage_Jacobiasca _lybca_detection_vineyards](https://github.com/ICAERUS-EU/ddal/blob/main/UC1/datasets/Orthoimage_Jacobiasca%20_lybca_detection_vineyards.md) | Orthoimage for Jacobiasca lybca pest detection on vineyard | [Orthoimage]((https://osf.io/mv9bh/))
 
 
 ## Models
