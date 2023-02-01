@@ -19,5 +19,3 @@
 
 ## Example
 ![image for strawberry ripeness ](https://cdn.britannica.com/22/75922-050-D3982BD0/flowers-fruits-garden-strawberry-plant-species.jpg)
-
-![image for strawberry ripeness ]([https://cdn.britannica.com/22/75922-050-D3982BD0/flowers-fruits-garden-strawberry-plant-species.jpg](https://drive.google.com/drive/folders/1o17fYsrpkVqWAW_eQWT6dsQ53YM00npc))
