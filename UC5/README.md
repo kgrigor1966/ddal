@@ -12,7 +12,7 @@ Under the datasets folder, the following datasets are included:
 
 | Article title | Dataset title | Dataset subject | Original dataset link | 
 | ----- | ----- | ----- | ----- |
-| High-resolution orthophoto map and digital surface models of the largest Argentine Islands (the Antarctic) from unmanned aerial vehicle photogrammetry |  [glacier_orthoimages](https://github.com/ICAERUS-EU/ddal/blob/main/UC5/datasets/glacier_orthoimages.md) | Polar glacier mapping | [orthoimage dataset link](https://zenodo.org/record/3686164#.Y_eF3dLMJhE)
+| High-resolution orthophoto map and digital surface models of the largest Argentine Islands (the Antarctic) from unmanned aerial vehicle photogrammetry |  [glacier_orthoimages](https://github.com/ICAERUS-EU/ddal/blob/main/UC5/datasets/glacier_orthoimages.md) | Polar glacier mapping | [Orthoimage dataset link](https://zenodo.org/record/3686164#.Y_eF3dLMJhE)
 
 
 ## Models
