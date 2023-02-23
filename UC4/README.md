@@ -21,7 +21,7 @@ Under the datasets folder, the following datasets are included:
 | Predicting Tree Mortality Using Spectral Indices Derived from Multispectral UAV Imagery  |  [dataset_tree_mortality_prediction](https://github.com/ICAERUS-EU/ddal/blob/main/UC4/datasets/dataset_tree_mortality_prediction.md) | Tree mortality prediction | [Tree mortality dataset link](https://doi.org/10.6084/m9.figshare.17283116.v1)
 | Individual Sick Fir Tree (Abies mariesii) Identification in Insect Infested Forests by Means of UAV Images and Deep Learning  |  [dataset_sick_fir_tree](https://github.com/ICAERUS-EU/ddal/blob/main/UC4/datasets/dataset_sick_fir_tree.md) | Classifying tree health and species class from RGB images | [Sick Fir Tree dataset](https://zenodo.org/record/4054338#.Y9pws9LMJhE)
 | Performance of unmanned aerial vehicle with thermal imaging, camera trap, and transect survey for monitoring of wildlife | [dataset_animal_movement](https://github.com/ICAERUS-EU/ddal/blob/main/UC4/datasets/dataset_animal_movement.md) | Animal movement samples | [Animal movement dataset](https://datadryad.org/stash/dataset/doi:10.5061/dryad.79cnp5hxc)
-| Antler detection from the sky: deer sex ratio monitoring using drone-mounted thermal infrared sensors| [dataset_deer_detection](https://github.com/ICAERUS-EU/ddal/blob/main/UC4/datasets/dataset_deer_detection.md) | Deer monitoring dataset| [deer monitoring](https://datadryad.org/stash/dataset/doi:10.5061/dryad.jm63xsjcr)
+| Antler detection from the sky: deer sex ratio monitoring using drone-mounted thermal infrared sensors| [dataset_deer_detection](https://github.com/ICAERUS-EU/ddal/blob/main/UC4/datasets/dataset_deer_detection.md) | Deer monitoring dataset| [Deer monitoring](https://datadryad.org/stash/dataset/doi:10.5061/dryad.jm63xsjcr)
 
 ## Models
 
@@ -29,4 +29,4 @@ Under the models folder, the following models are included:
 
 | Article title | Model title | Model Classification | Original model link |
 | ----- | ----- | ----- | ----- |
-| Predicting Tree Mortality Using Spectral Indices Derived from Multispectral UAV Imagery | [rf_predicting_tree_mortality](https://github.com/ICAERUS-EU/ddal/blob/main/UC4/models/rf_predicting_tree_mortality.md) | Machine Learning: Random Forest | [random_forest_link](https://github.com/KaiOBerg/Predicting-tree-mortality-using-spectral-indices-derived-from-multispectral-UAV-imagery/blob/main/final%20model.R)
+| Predicting Tree Mortality Using Spectral Indices Derived from Multispectral UAV Imagery | [rf_predicting_tree_mortality](https://github.com/ICAERUS-EU/ddal/blob/main/UC4/models/rf_predicting_tree_mortality.md) | Machine Learning: Random Forest | [Random Forest link](https://github.com/KaiOBerg/Predicting-tree-mortality-using-spectral-indices-derived-from-multispectral-UAV-imagery/blob/main/final%20model.R)
