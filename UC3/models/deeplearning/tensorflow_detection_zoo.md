@@ -1,11 +1,11 @@
-# Model title
+# Trensforflow for zoo detection
 
 
 ## Model metadata
 
 | Metadata item | Value |
 | ---- | ---- | 
-| UC Task: | Cow detection and counting |
+| UC Task: | Animal detection |
 | Machine Learning task | object_detection |
 | Model architecture | Faster RCNN Inception Resnet V2 |
 | Reported accuracy on train |  |
