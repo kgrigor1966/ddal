@@ -1,9 +1,9 @@
-# strawberry_ripe_notripe
+# cattle_images_UAV
 
 ## Dataset metadata
 | Metadata item | Value |
 | ---- | ---- | 
-| UC Task: | Cow detection and counting |
+| UC Task: | Animal detection |
 | Machine Learning task | object_detection |
 | Location | Brazil |
 | Location lat/lon | | 
