@@ -25,5 +25,5 @@ Under the models folder, the following models are included:
 
 | Article title | Model title | Model Classification | Original model link |
 | ----- | ----- | ----- | ----- |
-| A Two-Step Machine Learning Approach for Crop Disease Detection Using GAN and UAV Technology | [EfficientDet_disease_detection](https://github.com/ICAERUS-EU/ddal/blob/main/UC1/models/deeplearning/EfficientDet_disease_detection.md) | Deep Learning: Object Detection | [EfficientDet model link]([https://docs.ultralytics.com/tasks/detection/](https://github.com/xuannianz/EfficientDet))
+| A Two-Step Machine Learning Approach for Crop Disease Detection Using GAN and UAV Technology | [EfficientDet_disease_detection](https://github.com/ICAERUS-EU/ddal/blob/main/UC1/models/deeplearning/EfficientDet_disease_detection.md) | Deep Learning: Object Detection | [EfficientDet model link](https://github.com/xuannianz/EfficientDet)
 
