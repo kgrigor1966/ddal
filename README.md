@@ -8,7 +8,7 @@ This repository contains a large set of models used in drone-analytics of five d
 - UC4: Livestock Monitoring
 - UC5: Rural Transportation
 
-An explanation on how these models were found can be read in the [wiki](https://github.com/ICAERUS-EU/ddal/wiki/Methodology:-finding-the-models).
+An explanation on how these models were found can be read in the [wiki](https://github.com/ICAERUS-EU/ddal/wiki#models).
 
 ## Repo structure
 The repository is structured into a generic processing library, with models used across the use-cases. In addition, each use-case has a specific folders for the different models that can be found.
@@ -21,3 +21,5 @@ The repository is structured into a generic processing library, with models used
     ├── LICENSE
     └── README.md 
 
+[![ICAERUS-EU's GitHub stats](https://github-readme-stats.vercel.app/api?username=ICAERUS-EU)](https://github.com/ICAERUS-EU/github-readme-stats)
+[![Paula's GitHub stats](https://github-readme-stats.vercel.app/api?username=paulanoumena)](https://github.com/paulanoumena/github-readme-stats)
