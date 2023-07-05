@@ -21,5 +21,4 @@ The repository is structured into a generic processing library, with models used
     ├── LICENSE
     └── README.md 
 
-[![ICAERUS-EU's GitHub stats](https://github-readme-stats.vercel.app/api?username=ICAERUS-EU)](https://github.com/ICAERUS-EU/github-readme-stats)
-[![Paula's GitHub stats](https://github-readme-stats.vercel.app/api?username=paulanoumena)](https://github.com/paulanoumena/github-readme-stats)
+<!-- ![ICAERUS-EU's GitHub stats](https://github-readme-stats.vercel.app/api?username=ICAERUS-EU&show_icons=true&theme=dracula) -->
