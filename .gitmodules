@@ -1,0 +1,3 @@
+[submodule "UC1: Crop Monitoring/NDVI"]
+	path = UC1: Crop Monitoring/NDVI
+	url = git@github.com:paulanoumena/NDVI.git
