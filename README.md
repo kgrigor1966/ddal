@@ -10,7 +10,7 @@
     A central library for all things related to UAV analytics: path planning, image analysis, datasets and optimization methods.
     <br/>
     <br/>
-    <a href="https://github.com/icaerus-eu/ddal"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/icaerus-eu/ddal/wiki"><strong>Explore the wiki »</strong></a>
     <br/>
     <br/>
     <a href="https://github.com/icaerus-eu/ddal/issues">Report Bug</a>
