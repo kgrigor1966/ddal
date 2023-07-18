@@ -50,7 +50,7 @@ Furthermore, please see the [Wiki](https://github.com/ICAERUS-EU/ddal/wiki) if y
 
 ## Contributing
 
-The general idea is that this serves as a central place for all the available models that are continuing to be updated during the course of the project. As such, contributions are done to the individual repo's of the models and projects. If you want to contribute to this main repo, please open an (Issue)[https://github.com/ICAERUS-EU/ddal/issues].
+The general idea is that this serves as a central place for all the available models that are continuing to be updated during the course of the project. As such, contributions are done to the individual repo's of the models and projects. If you want to contribute to this main repo, please open an [Issue](https://github.com/ICAERUS-EU/ddal/issues).
 
 
 ## Authors
