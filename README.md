@@ -4,7 +4,7 @@
     <img src="https://icaerus.eu/wp-content/uploads/2022/09/ICAERUS-logo-white.svg" alt="Logo" width="40%">
   </a>
 
-  <h3 align="center">Drone Data Analytics Library</h3>
+  <h3 align="center">Drone Data Analytics Library 🔎</h3>
 
   <p align="center">
     A central library for all things related to UAV analytics: path planning, image analysis, datasets and optimization methods.
@@ -34,11 +34,11 @@
 Part of the [ICAERUS project](https://icaerus.eu) is to develop, maintain and optimize available drone analytical models. Theze can be image analysis, image processing, path planning, or even actuator control. If it is related to UAVs: it fits. 
 
 This repository contains a large set of models used in drone-analytics of five different drone use-cases:
-- UC1: Crop Monitoring
-- UC2: Crop Spraying
-- UC3: Forestry/Biodiversity
-- UC4: Livestock Monitoring
-- UC5: Rural Transportation
+- UC1: Crop Monitoring 📷
+- UC2: Crop Spraying 🌾
+- UC3: Forestry/Biodiversity 🌳
+- UC4: Livestock Monitoring 🐄
+- UC5: Rural Transportation 🚚
 
 An explanation on how these models were found can be read in the [wiki](https://github.com/ICAERUS-EU/ddal/wiki#models).
 
