@@ -18,11 +18,15 @@ rgb_image = cv2.imread(rgb_image_filepath) # Apply white balance in preprocessin
 # Extract the red channel from the RGB image
 red_band = rgb_image[:,:,2] 
 
+# Convert to float
+nir_band = np.float32(nir_band)
+red_band = np.float32(red_band)
+
 # Calculate NDVI
 ndvi = (nir_band - red_band) / (nir_band + red_band)
 
 # Threshold NDVI to identify vegetation
-threshold = ndvi_threshold  # You may need to adjust this threshold
+threshold = ndvi_threshold  
 vegetation_mask = ndvi > threshold
 
 # Calculate the Leaf Area Index (LAI)
@@ -32,6 +36,6 @@ lai = np.sum(vegetation_mask) * pixel_size**2
 print(f"Total LAI: {lai}")
 
 # Display the NDVI image (for visualization)
-cv2.imshow('NDVI Image', (ndvi * 255).astype(np.uint8))
+cv2.imshow('NDVI Image', (vegetation_mask * 255).astype(np.uint8))
 cv2.waitKey(0)
 cv2.destroyAllWindows()

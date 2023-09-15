@@ -1,4 +1,4 @@
 nir_image_filepath: '/home/noumena/Documents/GitHub/ddal/UC1_Crop_Monitoring/Vine_disease_detection_using_vegetation_indices_and_grids/data/230728_NIR.jpg'
 rgb_image_filepath: '/home/noumena/Documents/GitHub/ddal/UC1_Crop_Monitoring/Vine_disease_detection_using_vegetation_indices_and_grids/data/230728_RGB.jpg'
-ndvi_threshold: 0.2
-pixel_sixe_in_meters: 0.045
+ndvi_threshold: 0.1
+pixel_sixe_in_meters: 0.002118
