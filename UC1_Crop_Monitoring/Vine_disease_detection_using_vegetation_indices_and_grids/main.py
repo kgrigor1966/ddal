@@ -3,7 +3,7 @@
 __author__ = "Paula Osés"
 __copyright__ = "Copyright 2023, Noumena"
 __credits__ = ["Paula Osés, Oriol Arroyo, Salvador Calgua, Aldo Sollazzo"]
-__version__ = "1.0.1"
+__version__ = "1.0.2"
 __maintainer__ = "Paula Osés"
 __email__ = "paula@noumena.io"
 __status__ = "Production"
