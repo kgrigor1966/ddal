@@ -18,7 +18,6 @@ Before using this tool, ensure you have the following prerequisites:
 
    ```bash
    git clone https://github.com/ICAERUS-EU/ddal.git
-   cd vineyard-health-assessment
    ```
 
 2. Install the required packages by running:

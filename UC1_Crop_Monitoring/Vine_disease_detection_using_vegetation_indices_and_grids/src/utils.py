@@ -72,13 +72,13 @@ def create_grid_with_color_mapping(ndvi_image, dim_x, dim_y):
     image_with_visible_grid = np.copy(color_mapped_ndvi)
 
     # Iterate through each grid square of the image
-    for y in range(0, height, dim_y):
+    for y in tqdm(range(0, height, dim_y)):
         for x in range(0, width, dim_x):
             square = ndvi_img_array[y:y+dim_y, x:x+dim_x]
             mean_value = np.mean(square)
             
             # Map the mean value to a color intensity
-            mean_value = int(mean_value * 255 * 20)
+            mean_value = int(mean_value * 255)
             color_mapped_ndvi[y:y+dim_y, x:x+dim_x] = mean_value
 
             image_without_grid = np.copy(color_mapped_ndvi)

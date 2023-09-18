@@ -54,6 +54,7 @@ def main():
 
     # Calculate vegetation indices (e.g., NDVI)
     ndvi_image = ndvi(nir_image, r_image)
+    print('NDVI:', ndvi_image)
 
     print()
     print(">>> Creating the grid and color mapping")

@@ -34,7 +34,7 @@ import numpy as np
 import cv2
 
 
-def ndvi(nir, r): 
+def ndvi(nir_image, r_image): 
     """Computes the Normalized Difference Vegetation Index (NDVI),
     a measurement of vegetation health and vigor that quantifies
     the 'greenness' of plants.
@@ -47,14 +47,21 @@ def ndvi(nir, r):
         numpy.ndarray: image with NDVI values
     """
     try:
-        nir = np.float32(nir)
-        r = np.float32(r)
+        nir = np.float32(nir_image)
+        r = np.float32(r_image)
 
-        ndvi = (nir - r) / (nir + r)
+        # Check for zero values in NIR and RED
+        zero_mask = (nir + r) == 0
+
+        # Calculate NDVI, but replace division by zero with 0.0
+        ndvi = np.where(zero_mask, 0.0, (nir - r) / (nir + r))
+    
+        # ndvi = (nir - r) / (nir + r)
+
+        return ndvi
+
     except Exception as e:
         raise ValueError("Error computing NDVI: {}".format(str(e)))
-   
-    return ndvi
 
 
 def gndvi(nir, g): 
@@ -79,6 +86,7 @@ def gndvi(nir, g):
 
     return gndvi
 
+
 def ndre(nir, re): 
     """NDRE is a vegetation index that is particularly sensitive 
     to changes in chlorophyll content and canopy structure.
@@ -99,6 +107,7 @@ def ndre(nir, re):
         raise ValueError("Error computing NDVI: {}".format(str(e)))
 
     return ndre
+
 
 def ndwi(nir, g):  
     """NDWI is a vegetation index that is particularly sensitive 
